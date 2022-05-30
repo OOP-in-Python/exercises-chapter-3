@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "exercise-3-3-0",
+      "setup": "sudo -H pip3 install pytest setuptools numpy",
+      "run": "pytest tests/test_exercise_3_3_0.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-3-1",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_3_1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-3-2",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_3_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-3-3",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_3_3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-3-4",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_3_4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-4",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-5-1",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_5_1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-5-2",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_5_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-5-3",
+      "setup": "",
+      "run": "pytest tests/test_exercise_3_5_3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-3-6",
+      "setup": "",
+      "run": "python3 -m pip install -e .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
