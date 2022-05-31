@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from numbers import Number
 
 from numpy import outer, asarray, resize, sum, trim_zeros
@@ -126,13 +125,10 @@ class Polynomial:
         return self * other
 
     def __pow__(self, other):
-        result = NULL
+        result = self
 
-        for i in range(other):
-            if i == 1:
-                result = self*self
-            else:
-                result = result*self
+        for i in range(1, other):
+            result = result*self
         return result
 
     def __call__(self, other):
