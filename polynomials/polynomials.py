@@ -142,3 +142,16 @@ class Polynomial:
 
         result = sum(result)
         return result
+
+    def dx(self):
+        result = []
+
+        if self.degree() == 0:
+            return Polynomial((0,))
+        else:
+            for i in range(1, len(self.coefficients)):
+                result.append(self.coefficients[i] * i)
+            return Polynomial(tuple(result))
+
+def derivative(f):
+    return f.dx()
