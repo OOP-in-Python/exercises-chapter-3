@@ -74,7 +74,9 @@ class Polynomial:
             return NotImplemented
 
     def __rsub__(self, other):
-        return Polynomial((other - self.coefficients[0],) + tuple(-1*self.coefficients[1:][j] for j in range(0, len(self.coefficients[1:]))))
+        return Polynomial((other - self.coefficients[0],) 
+                          + tuple(-1*self.coefficients[1:][j] 
+                          for j in range(0, len(self.coefficients[1:]))))
 
     def __mul__(self, other):
         if isinstance(other, Polynomial):
@@ -104,7 +106,8 @@ class Polynomial:
 
                 rows = []
                 for j in range(0, count):
-                    rows.append(outer_array[min(max_degree, line) - j - 1][start_col + j])
+                    rows.append(outer_array[min(max_degree, line) - j - 1]
+                                           [start_col + j])
 
                 terms.append(sum(rows))
 
